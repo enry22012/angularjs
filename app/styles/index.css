@@ -1,0 +1,46 @@
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+
+.form-signup, .form-login {
+    min-height: 350px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #acacac;
+    border-radius: 4px;
+    box-shadow: 4px 3px 0 0 #ccc;
+    padding: 15px;
+}
+
+.form-signup, form-login h1 {
+    align-self: center;
+}
+
+.form-signup, form-login button {
+    max-width: 40%;
+    align-self: center;
+}
+
+div .signup, .login {
+    display: flex;
+    justify-content: center;
+}
+
+.has-error {
+    border-color: red !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25) !important;
+}
+
+.not-error {
+    border-color: green !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.25) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
