@@ -14,11 +14,11 @@
     padding: 15px;
 }
 
-.form-signup, form-login h1 {
+.form-signup h1, .form-login h1 {
     align-self: center;
 }
 
-.form-signup, form-login button {
+.form-signup button, .form-login button {
     max-width: 40%;
     align-self: center;
 }
@@ -36,6 +36,10 @@ div .signup, .login {
 .not-error {
     border-color: green !important;
     box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.25) !important;
+}
+
+.dropdown-item {
+    cursor: pointer !important;
 }
 
 input:-webkit-autofill,

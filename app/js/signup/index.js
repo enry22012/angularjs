@@ -14,14 +14,12 @@ app.controller('SignupCtrl', function($scope, $http) {
             data = JSON.stringify(data)
             $http.post('/signup', data).then(function (response) {
                 if (response.status === 200) {
-                    console.log(response);
                     console.log(`User ${response.data.username} has registered`)
                 }
             })
                 .catch(function(reject) {
                     $scope.userForm.username.$error.isTaken = true;
                     $scope.userForm.username.$invalid = true;
-                    console.log(reject);
                 });
         }
     }

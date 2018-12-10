@@ -13,7 +13,7 @@
     <script src="js/login/index.js"></script>
 </head>
 <body>
-<header class="navbar navbar-light bg-dark">
+<header class="navbar navbar-light bg-dark" ng-controller="navbarCtrl">
     <a class="navbar-brand" href="#!">
         <img src="./img/Home-Button.png" width="30" height="30" class="d-inline-block align-top" alt="">
     </a>
@@ -23,15 +23,30 @@
                 <a class="nav-link text-light" href="#!">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link text-light" href="#!about">About</a>
+            </li>
+        </ul>
+    </div>
+    <div style="flex: 1;"></div>
+    <div class="navbar-nav-scroll" ng-show="!signUser">
+        <ul class="navbar-nav bd-navbar-nav flex-row">
+            <li class="nav-item">
                 <a class="nav-link text-light" href="#!user/signup">Sign Up</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-light" href="#!user/login">Login</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-light" href="#!about">About</a>
-            </li>
         </ul>
+    </div>
+    <div class="btn-group dropleft" ng-show="!!signUser">
+        <div class="nav-link" id="userMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="./img/user-avatar.png" width="25" height="25" class="d-inline-block align-top" alt="">
+        </div>
+        <div class="dropdown-menu" aria-labelledby="userMenu">
+            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <button class="dropdown-item"  ng-click="siggout()">Sign Out</button>
+        </div>
     </div>
 </header>
 <div class="container">

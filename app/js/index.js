@@ -14,3 +14,10 @@ app.config(['$routeProvider', 'ROUTES', function($routeProvider, ROUTES) {
     $routeProvider.when(ROUTES.SIGNUP, {templateUrl: pathToViews + 'user/signup/index.html', controller: 'SignupCtrl'});
     $routeProvider.when(ROUTES.ABOUT, {templateUrl: pathToViews + 'about.html'});
 }]);
+
+app.controller('navbarCtrl', function ($scope, $http, $rootScope, $location, ROUTES) {
+    $scope.siggout = function() {
+        $rootScope.signUser = null;
+        $location.path(ROUTES.LOGIN);
+    }
+})

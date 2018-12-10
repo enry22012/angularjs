@@ -11,8 +11,10 @@
   "dependencies": {
     "angular": "^1.7.5",
     "angular-route": "^1.7.5",
+    "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.3.15"
   }
 }

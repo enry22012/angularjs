@@ -14,8 +14,8 @@ module.exports = function(app) {
     app.post('/signup', users.signup);
     app.post('/login', users.authentication);
     app.use("/",router);
-    app.all('*', (req,res) => {
-        console.log(req);
+    app.use('*', (req,res) => {
+        console.log(req.path)
         res.status(404).send({msg: "Not found!"})
     })
 }

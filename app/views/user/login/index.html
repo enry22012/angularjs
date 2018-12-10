@@ -3,18 +3,28 @@
         <h1>Login</h1>
         <div class="form-group">
             <label>Username</label>
-            <input type="text" ng-change="usernameChange()" name="username" class="form-control" ng-model="user.username" placeholder="Your Username" ng-minlength="3" ng-maxlength="20" ng-required="true" ng-class="loginForm.username.$invalid && (loginForm.username.$dirty || submitted) ? 'has-error' : 'not-error'">
-            <p ng-show="loginForm.username.$error.required && (loginForm.username.$dirty || submitted)" class="help-block">You username is required.</p>
-            <p ng-show="loginForm.username.$error.minlength && (loginForm.username.$dirty || submitted)" class="help-block">Username is too short.</p>
-            <p ng-show="loginForm.username.$error.maxlength && (loginForm.username.$dirty || submitted)" class="help-block">Username is too long.</p>
+            <input type="text" ng-change="usernameChange()" name="username" class="form-control"
+                   ng-model="user.username" placeholder="Your Username" ng-minlength="3" ng-maxlength="20"
+                   ng-required="true"
+                   ng-class="loginForm.username.$invalid && (loginForm.username.$dirty || submitted) ? 'has-error' : 'not-error'">
+            <p ng-show="loginForm.username.$error.required && (loginForm.username.$dirty || submitted)"
+               class="help-block">You username is required.</p>
+            <p ng-show="loginForm.username.$error.minlength && (loginForm.username.$dirty || submitted)"
+               class="help-block">Username is too short.</p>
+            <p ng-show="loginForm.username.$error.maxlength && (loginForm.username.$dirty || submitted)"
+               class="help-block">Username is too long.</p>
 
         </div>
         <div class="form-group">
             <label>Password</label>
-            <input type="password" name="password" class="form-control" ng-model="user.password" placeholder="Your password" ng-required="true" ng-minlength="6" ng-class="loginForm.password.$invalid && (loginForm.password.$dirty || submitted) ? 'has-error' : 'not-error'">
-            <p ng-show="loginForm.password.$error.required && (loginForm.password.$dirty || submitted)" class="help-block">Your password is required.</p>
-            <p ng-show="loginForm.password.$error.minlength && (loginForm.password.$dirty || submitted)" class="help-block">Your password is too short.</p>
+            <input type="password" name="password" class="form-control" ng-model="user.password"
+                   placeholder="Your password" ng-required="true" ng-minlength="6"
+                   ng-class="loginForm.password.$invalid && (loginForm.password.$dirty || submitted) ? 'has-error' : 'not-error'">
+            <p ng-show="loginForm.password.$error.required && (loginForm.password.$dirty || submitted)"
+               class="help-block">Your password is required.</p>
+            <p ng-show="loginForm.password.$error.minlength && (loginForm.password.$dirty || submitted)"
+               class="help-block">Your password is too short.</p>
         </div>
-        <button type="submit" class="btn btn-primary"  ng-disabled="loginForm.$invalid && submitted">Login</button>
+        <button type="submit" class="btn btn-primary" ng-disabled="loginForm.$invalid && submitted">Login</button>
     </form>
 </div>

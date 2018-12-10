@@ -19,7 +19,5 @@ app.use(router);
 const port = 3001;
 // Listen to port
 let server = app.listen(port, function(){
-
-    console.log(server.address())
     console.log(`Server is running on port: ${port}`);
 });
