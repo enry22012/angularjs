@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db307ac-412d-46a8-a41c-307dc9a05172" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/signup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/signup/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/user.route.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544286665055</updated>
       <workItem from="1544286673191" duration="43812000" />
-      <workItem from="1544423801433" duration="13865000" />
+      <workItem from="1544423801433" duration="14669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57677000" />
+    <option name="totallyTimeSpent" value="58481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
